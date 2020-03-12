@@ -24,5 +24,4 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/', indexRotas);
 app.use('/produtos', produtosRotas);
 
-
 module.exports = app;
